@@ -60,11 +60,13 @@ body{
     justify-content: space-evenly;
     align-items: center;
     left:1%;
+    overflow: hidden;
 }
 
 #home{
     background-color: rgb(243, 246, 248);
-    height: 80vh;
+    height: 100%
+    ;
 }
 
 #typewriteText{

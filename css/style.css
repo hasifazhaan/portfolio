@@ -54,7 +54,7 @@ body{
 
 .page{
     position: relative;
-    width: 98vw;
+    width: max(97vw,98%);
     height: 100vh;
     display:  flex;
     justify-content: space-evenly;
@@ -65,8 +65,8 @@ body{
 
 #home{
     background-color: rgb(243, 246, 248);
-    height: 100%
-    ;
+    height: calc(100vh - 150px );
+    
 }
 
 #typewriteText{
